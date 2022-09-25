@@ -1,0 +1,57 @@
+.heading {
+	margin-top: 50px;
+	text-align: center;
+}
+
+
+.text{
+	width: 500px;
+	display: flex;
+	resize: vertical;
+	margin: auto;
+}
+
+.block {
+	margin-top: 100px;
+}
+
+.banner {
+	width: 300px;
+	margin-top: 30px;
+	margin-right: auto;
+	margin-left: auto;
+	display: flex;
+	justify-content: space-between;
+}
+
+.banner_select {
+	width: 130px;
+	height: 30px;
+}
+
+.banner_button{
+	width: 130px;
+}
+
+.result{
+	width: 40%;
+	margin-top: 100px;
+	padding: 10px;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+.pre {
+	display: block;
+	width: 700px;
+	padding: 10px;
+	margin-top: 50px;
+	overflow: auto;
+	overflow-y: hidden;
+	background: #efefef;
+	border: 1px solid rgb(180, 180, 180);
+	background: url(lines.png) repeat 0 0;
+	margin-left: auto;
+	margin-right: auto;
+}
