@@ -1,13 +1,13 @@
 This project dockerizes ascii-art-web app and runs it in a docker container.
-"build&run.sh" file contains the commands to build a docker image for ascii-art-web and run it in a container.
+"buildNrun.sh" file contains the commands to build a docker image for ascii-art-web and run it in a container.
 Open the app's directory in a terminal and run this command there:
-./build&run.sh
+./buildNrun.sh
 
 The ascii-art-web app will start running inside a container and it will be available here:
 http://localhost:4000/
 
 To delete the image and the container, you can run the following command, it runs a file that runs the necessary commands:
-./stop&delete.sh
+./stopNdelete.sh
 
 ***
 
@@ -27,7 +27,7 @@ docker stop ascii-art-web-multi
 To delete the container:
 docker rm ascii-art-web-multi
 
-To delete the container despite it running:
+To forcefully (even if it is running) delete the container:
 docker rm -f ascii-art-web-multi
 
 To delete the created image (an image can only be deleted after a container that runs on the image is deleted):
